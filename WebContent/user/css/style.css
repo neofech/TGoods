@@ -1,0 +1,406 @@
+@charset "utf-8";
+
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,a
+	{
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+ul,li {
+	list-style: none;
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #ededed;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+/*--common--*/
+.t_menu,.header,.topNav_menu,.aa1,.bottom {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*--topHeader--*/
+.topHeader {
+	height: 30px;
+	background: #ededed;
+	border-bottom: 1px solid #e8e8e8;
+	border-top: solid 1px #E8E8E8;
+}
+
+.t_menu {
+	height: 30px;
+}
+
+.hello {
+	width: 500px;
+	height: 30px;
+	float: left;
+	line-height: 30px;
+	color: black;
+	font-weight: 600;
+}
+
+.hello a {
+	color: #ff6600;
+}
+
+.tui {
+	display: none;
+}
+
+.guan {
+	display: none;
+}
+
+.shop {
+	width: 460px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+}
+
+.shop .shoppingcart {
+	background: url(../img/test/integrate.png) no-repeat -151px 0;
+	display: block;
+	width: 104px;
+	height: 21px;
+	margin: 4px 8px 0px 0px;
+	line-height: 21px;
+	text-align: center;
+	float: left;
+}
+
+.shoppingcart .red1 {
+	color: red;
+}
+
+.sub {
+	margin: 0 5px;
+}
+
+/*--top--*/
+.top {
+	height: 100px;
+	border-bottom: 1px solid #ededed;
+	background: white;
+}
+
+.header {
+	height: 100px;
+	overflow: hidden;
+}
+
+.logo {
+	display: block;
+	width: 219px;
+	height: 70px;
+	background: url(../img/test/integrate.png) no-repeat 0 -69px;
+	margin: 10px 0 0 12px;
+	float: left;
+}
+
+.searchBox {
+	width: 508px;
+	height: 27px;
+	border: 2px solid #d72426;
+	float: left;
+	background: url(../img/test/integrate.png) no-repeat -223px -72px;
+	margin: 39px 0 0 276px;
+	position: relative;
+}
+
+#searchBox {
+	border: 0;
+	width: 474px;
+	height: 27px;
+	float: right;
+	line-height: 27px;
+}
+
+.searchBox .search_commodity {
+	width: 49px;
+	height: 21px;
+	color: white;
+	text-align: center;
+	line-height: 21px;
+	position: absolute;
+	left: -2px;
+	top: -23px;
+	background: #d72426;
+}
+
+.searchBox .seach_hot {
+	width: 580px;
+	height: 26px;
+	position: absolute;
+	left: 0;
+	bottom: -28px;
+	line-height: 26px;
+}
+
+.seach {
+	width: 148px;
+	height: 30px;
+	background: url(../img/test/seach_bg.png) repeat-x;
+	display: block;
+	float: left;
+	font-size: 14px;
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	line-height: 30px;
+	margin: 39px 0 0 6px;
+	border-radius: 5px;
+}
+
+/*--topNav--*/
+.topNav {
+	height: 43px;
+	background: url(../img/test/topNavBg.png) repeat-x;
+	position: relative;
+}
+
+.topNav_menu {
+	height: 43px;
+	overflow: hidden;
+}
+
+#commodityList {
+	display: block;
+	width: 120px;
+	height: 41px;
+	background: #940206;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 41px;
+	margin-top: 2px;
+	float: left;
+}
+
+.topNavList {
+	width: 850px;
+	height: 43px;
+	float: left;
+}
+
+.topNavList li {
+	float: left;
+}
+
+.topNavList li a {
+	display: inline-block;
+	font-size: 15px;
+	color: white;
+	font-weight: 600;
+	padding: 2px 0 2px 0;
+	width: 99px;
+	height: 39px;
+	text-align: center;
+	line-height: 39px;
+}
+
+.topNavList li a:hover {
+	background: #420500;
+}
+
+.topNav_hot {
+	width: 150px;
+	height: 40px;
+	float: left;
+	margin-top: 2px;
+	line-height: 50px;
+	position: relative;
+}
+
+.topNav_hot a {
+	font-weight: 600px;
+	color: white;
+	margin-right: 5px;
+}
+
+.topNav_hot a:hover {
+	text-decoration: underline;
+	color: #ffde00;
+}
+
+.topNav_hot .new {
+	background: url(../img/test/new_hot.png) no-repeat;
+	width: 129px;
+	height: 12px;
+	position: absolute;
+	left: 0;
+	top: 5px;
+}
+
+/*----*/
+.aa {
+	height: 44px;
+	background: url(../img/test/bg.png) repeat-x;
+}
+
+.aa .aa1 {
+	height: 43px;
+	background: #940206;
+	position: relative;
+}
+
+/*--bottom--*/
+.bottom {
+	height: 379px;
+	background: white;
+	overflow: hidden;
+}
+
+.friendlink {
+	width: 1178px;
+	height: 40px;
+	border: solid 1px #cccccc;
+	margin: 15px 0 0 10px;
+	line-height: 40px;
+}
+
+.friendlink a {
+	margin-left: 14px;
+}
+/*--left--*/
+.call {
+	width: 240px;
+	height: 193px;
+	background: #f8f8f8;
+	margin: 20px 10px 0;
+	overflow: hidden;
+	float: left;
+}
+
+.service {
+	height: 20px;
+	background: url(../img/test/call.png) no-repeat;
+	width: 100px;
+	text-indent: 28px;
+	line-height: 20px;
+	margin: 28px 0 0 40px;
+}
+
+.phone {
+	color: #c40000;
+	font-size: 15px;
+	font-weight: 600;
+	width: 122px;
+	margin: 5px 0 0 40px;
+}
+
+.hour {
+	color: #CCCCCC;
+	width: 100px;
+	margin: 5px 0 0 40px;
+}
+
+.leaveword {
+	width: 77px;
+	height: 18px;
+	background: url(../img/test/integrate.png) no-repeat 0 -168px;
+	display: block;
+	margin: 5px 0 0 40px;
+}
+
+.qq {
+	width: 77px;
+	height: 24px;
+	background: url(../img/test/integrate.png) no-repeat 0 -141px;
+	display: block;
+	margin: 5px 0 0 40px;
+}
+/*--right--*/
+.bottom_right {
+	width: 920px;
+	height: 193px;
+	background: #F8F8F8;
+	margin-top: 20px;
+	float: left;
+}
+
+.bottom_right dl {
+	float: left;
+}
+
+.bottom_right dl dt {
+	font-weight: 600;
+}
+
+.about,.after_service,.AliPay,.shopping_guide,.delivery {
+	width: 80px;
+	height: 160px;
+}
+
+.about,.after_service,.AliPay,.shopping_guide,.delivery,.two_dimension_code
+	{
+	margin: 24px 0 0 45px;
+}
+
+.about dd,.after_service dd,.AliPay dd,.shopping_guide dd,.delivery dd,.two_dimension_code dd
+	{
+	text-align: center;
+	margin-top: 8px;
+}
+
+.about dt {
+	background: url(../img/test/call.png) no-repeat 0 -21px;
+	text-indent: 23px;
+}
+
+.after_service dt {
+	background: url(../img/test/call.png) no-repeat 0 -40px;
+	text-indent: 23px;
+}
+
+.AliPay dt {
+	background: url(../img/test/call.png) no-repeat 0 -61px;
+	text-indent: 23px;
+}
+
+.shopping_guide dt {
+	background: url(../img/test/call.png) no-repeat 0 -80px;
+	text-indent: 23px;
+}
+
+.delivery dt {
+	background: url(../img/test/call.png) no-repeat 0 -99px;
+	text-indent: 23px;
+}
+
+.two_dimension_code dt {
+	background: url(../img/test/call.png) no-repeat 0 -117px;
+	text-indent: 23px;
+}
+
+.two_dimension_code dd {
+	width: 120px;
+	height: 120px;
+	background: url(../img/test/integrate.png) no-repeat 0 -189px;
+}
+
+.btm {
+	width: 1178px;
+	height: 40px;
+	text-align: center;
+	margin: 15px 0 0 10px;
+	line-height: 40px;
+	margin-top: 230px;
+}
+
+.bt {
+	text-align: center;
+}
+/*--bottom--*/

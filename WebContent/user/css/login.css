@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,a
+	{
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+ul,li {
+	list-style: none;
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #ededed;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+/*--login--*/
+.login {
+	height: 376px;
+	width: 1200px;
+	margin: 15px auto;
+}
+
+.loginLeft {
+	width: 540px;
+	height: 344px;
+	border: 2px dashed #888888;
+	float: left;
+	background: #f8f8f8;
+	position: relative;
+}
+
+.form1 input {
+	width: 202px;
+	height: 26px;
+	margin-top: 16px;
+	overflow: hidden;
+}
+
+.form1 legend {
+	font-size: 15px;
+	margin-top: 18px;
+}
+
+.form1 .red2 {
+	font-size: 14px;
+	color: red;
+	font-weight: 100;
+}
+
+.form1 span {
+	text-indent: 12px;
+	font-weight: 600;
+}
+
+.form1 .verification {
+	width: 111px;
+}
+
+.register {
+	width: 106px;
+	height: 28px;
+	border: 1px solid #ffa800;
+	border-radius: 3px;
+	margin: 11px 0 0 65px;
+}
+
+.register a {
+	display: block;
+	width: 104px;
+	height: 26px;
+	border: 1px solid white;
+	border-radius: 3px;
+	background: url(../img/test/registerBg.png) repeat-x;
+	text-align: center;
+	line-height: 26px;
+	color: #4d2f00;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.verificationBox {
+	display: inline-block;
+	width: 50px;
+	height: 22px;
+	border: #0016C2 1px solid;
+	position: absolute;
+	left: 190px;
+	top: 237px;
+	text-align: center;
+	line-height: 22px;
+	font-size: 18px;
+}
+
+.loginRight {
+	width: 540px;
+	height: 344px;
+	border: 2px dashed #888888;
+	float: right;
+	background: #f8f8f8;
+}
+
+.form2 input {
+	width: 202px;
+	height: 26px;
+	margin-top: 16px;
+}
+
+.form2 legend {
+	font-size: 15px;
+	margin-top: 18px;
+}
+
+.myRegister {
+	width: 97px;
+	height: 29px;
+	border: 1px solid #0016c2;
+	border-radius: 3px;
+	margin: 11px 0 0 65px;
+}
+.emailHint{
+	color:red;
+}
+.myRegister a {
+	display: block;
+	width: 95px;
+	height: 27px;
+	border: 1px solid #2623e9;
+	border-radius: 3px;
+	background: #0016C2;
+	text-align: center;
+	line-height: 26px;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+}

@@ -1,0 +1,13 @@
+.pad_right{ 
+	padding-right:2px;
+}
+#scroll_div {
+	height:26px;
+	overflow: hidden;
+	white-space: nowrap; /*规定段落中的文本不换行*/
+	width:535px;
+	margin-left:10px;
+}
+#scroll_begin,#scroll_end {
+	display: inline;
+}

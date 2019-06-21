@@ -1,0 +1,23 @@
+.left_div ul li{
+	list-style-type: none !important;
+	background: url("images/li.jpg");
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.left_div ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.left_div ul li:hover{
+	/* background: url("images/li.jpg"); */
+	background-color: red;
+}
+
+.left_div {
+	margin-top: 20px;
+}
+
+
+

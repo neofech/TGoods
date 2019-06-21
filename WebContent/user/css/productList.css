@@ -1,0 +1,345 @@
+@charset "utf-8";
+
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,a
+	{
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	display: block;
+}
+
+ul,li {
+	list-style: none;
+}
+
+body {
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #ededed;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*-------------path 头-------------------*/
+.path {
+	width: 1200px;
+	height: 35px;
+	background: #e7e7e7 url(../img/test/10.png) left center no-repeat;
+	margin: 0 auto;
+	line-height: 38px;
+	text-indent: 24px;
+}
+/*-----------listCenter------------*/
+
+/*--left-*/
+#ListCenter {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.leftBox {
+	width: 210px;
+	float: left;
+	background-color: #FFF;
+}
+
+.salable h4 {
+	height: 32px;
+	background: #ab0c06;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 3px;
+}
+
+.salable ul li {
+	width: 210px;
+	min-height: 40px;
+	overflow: hidden;
+	border-bottom: 1px solid #D5D5D5;
+	line-height: 40px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.ad_1 {
+	margin: 10px 0;
+}
+
+.pic {
+	float: left;
+}
+
+.text {
+	width: 134px;
+	height: 65px;
+	float: right;
+	line-height: 20px;
+}
+
+.price {
+	color: red;
+}
+
+.red4 {
+	color: red;
+	float: left;
+}
+
+.recommend {
+	width: 210px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.recommend h4 {
+	height: 32px;
+	background: #ab0c06;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 3px;
+}
+
+.recommend a {
+	display: block;
+	height: 55px;
+	width: 100px;
+	float: left;
+	margin: 1px
+}
+
+.recommend img {
+	border: 1px solid #D5D5D5;
+	float: left;
+	width: 98px;
+}
+
+.clear {
+	width: 210px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.clear h4 {
+	height: 32px;
+	background: #ab0c06;
+	color: white;
+	text-indent: 12px;
+	line-height: 32px;
+	border-radius: 3px;
+}
+
+/*--right-*/
+.rightBox {
+	width: 980px;
+	overflow: hidden;
+	height: 100%;
+	float: right;
+}
+
+.rightBox .sx {
+	width: 980px;
+	overflow: hidden;
+	background: white;
+}
+
+.sx-hi {
+	height: 35px;
+	padding: 0px 10px;
+	line-height: 35px;
+	border: 2px solid #D1CCC7;
+	color: #806F66;
+}
+
+.r {
+	float: right;
+}
+
+.r a {
+	color: #806F66;
+}
+
+.bd_clear {
+	border: 1px solid #E7E7E8;
+	width: 980px;
+	overflow: hidden;
+}
+
+.bd_clear .li1 {
+	width: 100px;
+	padding-left: 10px;
+	color: #806F66;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	background: #F7F5F6;
+}
+
+.bd_clear .li2 {
+	width: 800px;
+	height: 26px;
+	float: left;
+}
+
+.bd_clear .li3 {
+	width: 51px;
+	height: 26px;
+	float: left;
+	margin-top: 6px;
+}
+
+.bd_clear .li2 ul li {
+	width: 95px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+}
+
+.bd_clear .li2 ul li a:hover {
+	background: #FFA800;
+}
+
+.bd_clear .li4 {
+	width: 800px;
+	height: 26px;
+	float: left;
+	margin-top: 6px;
+}
+
+.bd_clear .li4 ul li {
+	width: 95px;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	white-space: nowrap;
+}
+
+.bd_clear .li4 ul li a:hover {
+	background: #FFA800;
+}
+
+.sequence {
+	height: 40px;
+	background: #faf4ea;
+	border: 1px solid #CCCCCC;
+	width: 980px;
+	line-height: 40px;
+}
+
+.sequence span {
+	float: left;
+}
+
+.sequence a {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+	padding: 0 10px;
+	border: 1px solid #D5D5D5;
+	float: left;
+}
+
+.sequence a:hover {
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 10px;
+	padding: 0 10px;
+	background: #c4161c;
+	border: 0;
+	color: white;
+	float: left;
+}
+
+.sequence a.ative {
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 10px;
+	padding: 0 10px;
+	background: #c4161c;
+	border: 0;
+	color: white;
+	float: left;
+}
+
+#goods {
+	background: white;
+	overflow: hidden;
+	width: 100%;
+	overflow: hidden;
+}
+
+.product {
+	text-align: center;
+	width: 240px;
+	float: left;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	background: white;
+}
+
+.product dl {
+	width: 100%;
+	min-height: 340px;
+	float: left;
+}
+
+.product dl dt {
+	width: 170px;
+	height: 230px;
+	margin : 18px auto 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+.product dl dt:hover {
+	border: 1px solid salmon;
+}
+
+.product dl dt a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.product dl dt span {
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.product dl dd {
+	line-height: 20px;
+}
+
+.product dl dd del {
+	color: #CCCCCC;
+}
+
+.product dl dd b {
+	color: #cf0f4c;
+}
+
+.product dl dd span {
+	color: #0066cc;
+}
+
+/*------next------*/
+.next {
+	height: 60px;
+	background: white;
+	line-height: 60px;
+}
